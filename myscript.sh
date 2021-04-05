@@ -93,3 +93,23 @@
 #     echo "$LINE: $CURRENT_LINE"
 #     ((LINE++))
 # done <"./new-1.txt"
+
+# FUNCTION
+# function sayHello() {
+#     echo "HELLO WORLD"
+# }
+
+# sayHello
+
+# FUNCTION WITH PARAMS
+# function greet() {
+#     echo "Hello, my name is $1 and I am $2."
+# }
+
+# greet "Tajveez" "27"
+
+# BASH COMMANDS IN SCRIPT
+# mkdir hello
+# touch "hello/world.txt"
+# echo "Hello World" >>"hello/world.txt"
+# echo "Created hello/world.txt"
